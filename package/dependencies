@@ -1,182 +1,19 @@
 # Comments start with a '#'.
 # Empty lines are ignored.
 
-#    = Nitrux OS CORE =
+#    = NX Desktop =
 
-nitrux-minimal
-nitrux-standard
-nitrux-hardware-drivers
+nx-desktop
 
-#    = Network Services =
+#     == Plasma Wayland ==
 
-#    = Multimedia =
-
-alsa-utils
-gstreamer1.0-libav
-gstreamer1.0-pipewire
-gstreamer1.0-plugins-base
-gstreamer1.0-plugins-good
-gstreamer1.0-plugins-ugly
-gstreamer1.0-pulseaudio
-gstreamer1.0-qt5
-libqt5multimedia5-plugins
-phonon4qt5
-phonon4qt5-backend-vlc
-pipewire
-pipewire-audio-client-libraries
-pipewire-tests
-qt5-image-formats-plugins
-
-#     == Plasma ==
-
-baloo-kf5
-bluedevil
-bluez
-kde-cli-tools
-kde-config-gtk-style
-kde-config-plymouth
-kde-config-screenlocker
-kde-config-sddm
-khotkeys
-kio
-kio-extras
-kscreen
-kwin
-kwin-addons
-oxygen-sounds
-plasma-desktop
-plasma-nm
-plasma-pa
-plasma-thunderbolt
-plasma-widgets-addons
-plasma-vault
-polkit-kde-agent-1
-powerdevil
-
-
-#   = Other KDE or Qt Software =
-
-kaccounts-integration
-kaccounts-providers
-kio-fuse
-kio-gdrive
-kup-backup
-plasma-browser-integration
-qml-module-org-kde-activities
-qml-module-org-kde-newstuff
-qml-module-qmltermwidget
-qml-module-qt-labs-platform
-qml-module-qtquick-extras
-qml-module-qtquick-shapes
-qml-module-qtquick-xmllistmodel
-qml-module-qtwayland-compositor
-qml-module-qtwebview
-
-#    = NX Desktop Customization Layer =
-
-applet-window-buttons
-fonts-nx-desktop
-grub2-theme-nitrux
-kvantum-theme-kvnitrux
-luv-icon-theme
-nitrux-wallpapers-free
-nx-audio-applet
-nx-clock-applet
-nx-desktop-apps
-nx-desktop-settings
-nx-firewall
-nx-gtk-themes
-nx-kstyle-theme
-nx-networkmanagement-applet
-nx-notifications-applet
-nx-plasma-look-and-feel
-nx-simplemenu-applet
-nx-systemtray-applet
-nx-window-deco
-plymouth-theme-nitrux
-
-#    = Locales =
-#   == Unless requested use English by default ==
-
-
-#    = Supporting bits =
-
-accountsservice
-acpi-support
-acpid
-amd64-microcode
-avahi-daemon
-binutils-multiarch
-coreutils
-desktop-file-utils
-dnsmasq
-firejail
-firejail-profiles
-fonts-arphic-ukai
-fonts-arphic-uming
-fonts-freefont-ttf
-fonts-ipafont-gothic
-fonts-ipafont-mincho
-fonts-liberation
-fonts-opensymbol
-fonts-powerline
-fonts-unfonts-core
-ghostscript-x
-gnome-keyring
-gnupg-agent
-graphviz
-gtk2-engines-murrine
-gtk3-engines-breeze
-haveged
-intel-microcode
-iucode-tool
-laptop-detect
-libavahi-glib1
-libdbus-glib-1-2
-libdbusmenu-gtk3-4
-libexiv2-27
-libspa-0.2-bluetooth
-libspa-0.2-jack
-libstartup-notification0
-libxvmc1
-mscompress
-openresolv
-pm-utils
-policykit-desktop-privileges
-powerline
-preload
-pulseaudio-module-bluetooth
-python-cairo
-python-gi-cairo
-python-setuptools
-python3-dbus
-python3-setproctitle
-python3-xlib
-qt5-gtk-platformtheme
-qttranslations5-l10n
-rfkill
-rng-tools
-rofi
-rsyslog
-sbsigntool
-ssh-askpass
-ubuntu-drivers-common
-upower
-usb-modeswitch
-wireless-tools
-xdg-user-dirs
-xdg-utils
-
-#    = XORG =
-
-x11-session-utils
-xinit
-
-#    = Wayland =
-
-libnvidia-egl-wayland1
-libwayland-client++0
-libwayland-client-extra++0
-libwayland-cursor++0
-libwayland-egl++0
-libwayland-egl1-mesa
+kwayland-integration
+kwin-wayland
+kwin-wayland-backend-drm
+kwin-wayland-backend-wayland
+kwin-wayland-backend-x11
+libqt5waylandclient5
+libqt5waylandcompositor5
+plasma-workspace-wayland
+qtwayland5
+xwayland
