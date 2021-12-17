@@ -9,7 +9,7 @@ script:
 
 branches:
   only:
-    - legacy
+    - nx-desktop-wayland-legacy
 
 notifications:
   email: false
