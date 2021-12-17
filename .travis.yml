@@ -9,7 +9,7 @@ script:
 
 branches:
   only:
-    - master
+    - nx-desktop-wayland
 
 notifications:
   email: false
