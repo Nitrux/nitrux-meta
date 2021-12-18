@@ -18,7 +18,7 @@ plasma-workspace-wayland
 qtwayland5
 xwayland
 
-#    = Supporting bits =
+#    = Wayland =
 
 libwayland-client++0
 libwayland-client-extra++0
