@@ -17,3 +17,11 @@ libqt5waylandcompositor5
 plasma-workspace-wayland
 qtwayland5
 xwayland
+
+#    = Wayland =
+
+libwayland-client++0
+libwayland-client-extra++0
+libwayland-cursor++0
+libwayland-egl++0
+libwayland-egl1-mesa
