@@ -14,7 +14,6 @@ kwin-wayland-backend-wayland
 kwin-wayland-backend-x11
 libqt5waylandclient5
 libqt5waylandcompositor5
-plasma-workspace-wayland
 qtwayland5
 xwayland
 
