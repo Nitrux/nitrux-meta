@@ -3,6 +3,8 @@
 apt -qq update
 apt -qq -yy install equivs curl git
 
+git config --global --add safe.directory /home/travis/build/Nitrux/nx-desktop
+
 deps=$(sed -e '/^#.*$/d; /^$/d; /^\s*$/d' package/dependencies | paste -sd ,)
 git_commit=$(git rev-parse --short HEAD)
 
