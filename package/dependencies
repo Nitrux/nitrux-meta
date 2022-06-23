@@ -19,8 +19,8 @@ xwayland
 
 #    = Wayland =
 
-libwayland-client++0
-libwayland-client-extra++0
-libwayland-cursor++0
-libwayland-egl++0
+libwayland-client++1
+libwayland-client-extra++1
+libwayland-cursor++1
+libwayland-egl++1
 libwayland-egl1-mesa
