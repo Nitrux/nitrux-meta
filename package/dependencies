@@ -3,8 +3,6 @@
 
 #    = NX Desktop =
 
-nx-desktop
-
 #     == Plasma Wayland ==
 
 kwayland-integration
